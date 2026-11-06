@@ -1,5 +1,7 @@
 # 投资标的 (`@local/dsh-astock-quotes`)
 
+![License](https://img.shields.io/github/license/nineberg/dsh-plugin-stock) ![Platform](https://img.shields.io/badge/DeepSeek%20Harness-plugin-0969da) ![GitHub stars](https://img.shields.io/github/stars/nineberg/dsh-plugin-stock?style=social)
+
 > 仓库：[nineberg/dsh-plugin-stock](https://github.com/nineberg/dsh-plugin-stock) · License: [MIT](LICENSE) © nineberg
 
 DSH 插件：一个插件、两种形态、同一份数据——
