@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Symbol Trends",
+    "description": "Sidebar symbol-trends panel plus a tear-off Dynamic-Island-style floating widget sharing one dataset: live price, change, intraday and 5-day trend for A-shares, HK and US stocks. Drag the sidebar icon out to float it, drag it back to dock, and drop the dot onto the Plugin Island."
+  }
+}

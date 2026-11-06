@@ -1,0 +1,15 @@
+- insert:
+    - id: astock-quotes
+      name: '@local/dsh-astock-quotes'
+      config:
+        # Initial (default) symbol list for the panel: sh = Shanghai,
+        # sz = Shenzhen. The panel's search box can add/remove symbols
+        # at runtime; those edits persist in the browser localStorage
+        # and this config only seeds the first open.
+        symbols:
+          - sh600522   # 中天科技
+          - sh688825   # 长鑫科技
+          - sh600206   # 有研新材
+          - sz000791   # 甘肃能源
+          - sh000001   # 上证指数
+        refreshMs: 8000

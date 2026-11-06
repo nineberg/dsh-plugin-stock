@@ -1,0 +1,37 @@
+{
+  "name": "@local/dsh-astock-quotes",
+  "version": "2.0.4",
+  "private": true,
+  "author": "nineberg",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nineberg/dsh-plugin-stock.git"
+  },
+  "homepage": "https://github.com/nineberg/dsh-plugin-stock#readme",
+  "bugs": {
+    "url": "https://github.com/nineberg/dsh-plugin-stock/issues"
+  },
+  "type": "module",
+  "description": "Symbol trends: sidebar panel plus a tear-off draggable floating widget (A-share/HK/US, intraday/5-day, Plugin Island compatible).",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
